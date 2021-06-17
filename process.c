@@ -127,6 +127,10 @@ out:
 #error "Please provide a pid_to_cmd for your platform"
 #endif
 
+int ARGC;
+char **ARGV;
+
+
 void process_set_name(const char *name)
 {
 	size_t argslen = 0;
